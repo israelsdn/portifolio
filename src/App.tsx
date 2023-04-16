@@ -16,7 +16,7 @@ export function App() {
             </h1>
 
             <input  
-            placeholder='User' 
+            placeholder='Username' 
             type="text"
             className='text-input-login mx-16 mb-5'/>
 
@@ -26,10 +26,15 @@ export function App() {
             className='text-input-login mx-16 mb-12 '/>
             
             <button 
-            className='max-sm:text-sm max-lg:text-base text-lg bg-purple-900 hover:bg-purple-700 text-[#09090B] font-bold py-2 px-4 rounded
-             mx-5 mb-12'>
-              ENTER
+            className='max-sm:text-sm max-lg:text-base text-lg bg-purple-900 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded
+             mx-5 mb-3'>
+              SIGN-IN
             </button>
+
+            <p 
+            className='max-sm:text-xs max-lg:text-sm text-base text-[#09090B] ml-5 mb-12'>
+              Don't have login? <a href='https://google.com'>Click here.</a>
+            </p>
 
           </div>
         </main>
