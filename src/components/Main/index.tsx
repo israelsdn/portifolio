@@ -3,7 +3,7 @@ export function Main(){
         <main 
         className='h-screen flex justify-center items-center'>
           <div 
-          className='grid bg-white rounded-3xl w-96'>
+          className='grid bg-white rounded-3xl max-sm:w-72 max-lg:w-80 w-96'>
             <h1 
             className='max-sm:text-xl max-lg:text-2xl text-3xl font-bold text-center text-gray-800 mt-8 mb-10'>
               LOGIN
