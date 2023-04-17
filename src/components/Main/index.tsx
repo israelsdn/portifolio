@@ -3,7 +3,7 @@ export function Main(){
         <main 
         className='h-screen flex justify-center items-center'>
           <div 
-          className='grid bg-white rounded-3xl w-1/5'>
+          className='grid bg-white rounded-3xl w-96'>
             <h1 
             className='max-sm:text-xl max-lg:text-2xl text-3xl font-bold text-center text-gray-800 mt-8 mb-10'>
               LOGIN
@@ -27,11 +27,8 @@ export function Main(){
 
             <p 
             className='max-sm:text-xs max-lg:text-sm text-base text-[#09090B] ml-5 mb-12'>
-              Don't have login? 
-              <a 
-              href='https://google.com' 
-              className="text-blue-700 font-semibold">
-                Click here.</a>
+              Don't have login?
+              <a href='https://google.com'className="text-blue-700 font-semibold"> Click here.</a>  
             </p>
 
           </div>
