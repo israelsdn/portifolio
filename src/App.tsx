@@ -2,6 +2,7 @@ import React from 'react'
 import './App.css';
 import { Main } from './components/Main';
 import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 
 export function App() {
   return (
@@ -12,7 +13,9 @@ export function App() {
       <main>
         <Main/>
       </main>
-      <footer></footer>
+      <footer>
+        <Footer/>
+      </footer>
     </>
   );
 }
