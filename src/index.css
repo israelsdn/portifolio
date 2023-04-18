@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+    margin: 0;
+}
+
 @layer components {
     .text-input-login {
         @apply max-sm:text-sm max-lg:text-base text-lg placeholder:text-[#09090B] p-1 border border-[#09090B]
